@@ -17,7 +17,7 @@ A modern and responsive landing page built with **HTML**, **CSS**, **JavaScript*
 
 ## 📸 Preview
 
-![Landing Page Preview](https://via.placeholder.com/1000x600?text=Landing+Page+Preview)
+![Landing Page (GSAP Integration) Preview](./Assets/NextGenWeb-GoogleChrome2025-05-2610-59-54-ezgif.com-video-to-gif-converter.gif)
 
 ---
 
