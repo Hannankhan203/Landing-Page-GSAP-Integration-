@@ -11,6 +11,9 @@ const loginModal = document.querySelector("#login-modal");
 const loginBtn = document.querySelector("#login-btn-id");
 const closeBtn = document.querySelector(".close");
 const loginForm = document.querySelector("#login-form");
+const burger = document.getElementById("burger");
+const navLinks = document.querySelector(".nav-links");
+const links = document.querySelectorAll(".nav-links a");
 
 gsap.from(h1, {
   y: 50,
@@ -76,4 +79,15 @@ loginForm.addEventListener("submit", (e) => {
   e.preventDefault();
   alert("Demo login successful!");
   loginModal.style.display = "none";
+});
+
+burger.addEventListener("click", () => {
+  navLinks.classList.toggle("active");
+});
+
+links.forEach((link) => {
+  link.addEventListener("click", () => {
+    navLinks.classList.remove("active");
+    burger.classList.remove("active");
+  });
 });
